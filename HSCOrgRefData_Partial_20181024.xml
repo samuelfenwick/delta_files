@@ -1,0 +1,3557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HSCOrgRefData:OrgRefData xmlns:HSCOrgRefData="http://refdata.hscic.gov.uk/org/v2-0-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://refdata.hscic.gov.uk/org/v2-0-0 HSCOrgRefData.xsd">
+  <Manifest>
+    <Version value="2-0-0" />
+    <PublicationType value="Partial" />
+    <PublicationSource value="HSCIC" />
+    <PublicationDate value="2018-10-24" />
+    <PublicationSeqNum value="130" />
+    <FileCreationDateTime value="2018-10-24T22:00:01" />
+    <RecordCount value="45" />
+    <ContentDescription value="HSCOrgRefData_Partial_20181024" />
+    <PrimaryRoleScope>
+      <PrimaryRole id="RO197" displayName="NHS TRUST" />
+      <PrimaryRole id="RO167" displayName="OPTICAL SITE" />
+      <PrimaryRole id="RO210" displayName="NHS ENGLAND (REGION, LOCAL OFFICE)" />
+      <PrimaryRole id="RO157" displayName="NON-NHS ORGANISATION" />
+      <PrimaryRole id="RO222" displayName="LOCAL AUTHORITY SITE" />
+      <PrimaryRole id="RO198" displayName="NHS TRUST SITE" />
+      <PrimaryRole id="RO166" displayName="OPTICAL HEADQUARTERS" />
+      <PrimaryRole id="RO141" displayName="LOCAL AUTHORITY" />
+      <PrimaryRole id="RO181" displayName="PHARMACY HEADQUARTER" />
+      <PrimaryRole id="RO98" displayName="CLINICAL COMMISSIONING GROUP" />
+      <PrimaryRole id="RO179" displayName="PRIMARY CARE TRUST" />
+      <PrimaryRole id="RO177" displayName="PRESCRIBING COST CENTRE" />
+      <PrimaryRole id="RO182" displayName="PHARMACY" />
+    </PrimaryRoleScope>
+  </Manifest>
+  <CodeSystems>
+    <CodeSystem name="OrganisationRecordClass" oid="2.16.840.1.113883.2.1.3.2.4.23">
+      <concept id="RC1" code="1" displayName="HSCOrg" />
+      <concept id="RC2" code="2" displayName="HSCSite" />
+    </CodeSystem>
+    <CodeSystem name="OrganisationRole" oid="2.16.840.1.113883.2.1.3.2.4.17.507">
+      <concept id="RO132" code="132" displayName="HEALTH AUTHORITY (HA)" />
+      <concept id="RO109" code="109" displayName="DISTRICT HEALTH AUTHORITY (DHA)" />
+      <concept id="RO210" code="210" displayName="NHS ENGLAND (REGION, LOCAL OFFICE)" />
+      <concept id="RO111" code="111" displayName="DIRECTLY MANAGED UNIT (DMU)" />
+      <concept id="RO197" code="197" displayName="NHS TRUST" />
+      <concept id="RO7" code="7" displayName="HOSPICE" />
+      <concept id="RO166" code="166" displayName="OPTICAL HEADQUARTERS" />
+      <concept id="RO179" code="179" displayName="PRIMARY CARE TRUST" />
+      <concept id="RO98" code="98" displayName="CLINICAL COMMISSIONING GROUP" />
+      <concept id="RO167" code="167" displayName="OPTICAL SITE" />
+      <concept id="RO128" code="128" displayName="GOVERNMENT OFFICE REGION" />
+      <concept id="RO209" code="209" displayName="NHS ENGLAND (REGION)" />
+      <concept id="RO211" code="211" displayName="SPECIALISED COMMISSIONING HUB" />
+      <concept id="RO157" code="157" displayName="NON-NHS ORGANISATION" />
+      <concept id="RO268" code="268" displayName="MEDICINE SUPPLIER" />
+      <concept id="RO141" code="141" displayName="LOCAL AUTHORITY" />
+      <concept id="RO222" code="222" displayName="LOCAL AUTHORITY SITE" />
+      <concept id="RO198" code="198" displayName="NHS TRUST SITE" />
+      <concept id="RO119" code="119" displayName="LOCAL AUTHORITY - LEGACY" />
+      <concept id="RO40" code="40" displayName="UNITARY AUTHORITY" />
+      <concept id="RO33" code="33" displayName="COUNTY COUNCIL" />
+      <concept id="RO181" code="181" displayName="PHARMACY HEADQUARTER" />
+      <concept id="RO107" code="107" displayName="CARE TRUST" />
+      <concept id="RO57" code="57" displayName="FOUNDATION TRUST" />
+      <concept id="RO173" code="173" displayName="PATHOLOGY LAB" />
+      <concept id="RO218" code="218" displayName="COMMISSIONING HUB" />
+      <concept id="RO22" code="22" displayName="LEVEL 04 PCT" />
+      <concept id="RO172" code="172" displayName="INDEPENDENT SECTOR HEALTHCARE PROVIDER" />
+      <concept id="RO72" code="72" displayName="OTHER PRESCRIBING COST CENTRE" />
+      <concept id="RO177" code="177" displayName="PRESCRIBING COST CENTRE" />
+      <concept id="RO255" code="255" displayName="PUBLIC HEALTH SERVICE PRESCRIBING COST CENTRE" />
+      <concept id="RO182" code="182" displayName="PHARMACY" />
+    </CodeSystem>
+    <CodeSystem name="OrganisationRelationship" oid="2.16.840.1.113883.2.1.3.2.4.17.508">
+      <concept id="RE5" code="5" displayName="IS LOCATED IN THE GEOGRAPHY OF" />
+      <concept id="RE6" code="6" displayName="IS OPERATED BY" />
+      <concept id="RE3" code="3" displayName="IS DIRECTED BY" />
+      <concept id="RE4" code="4" displayName="IS COMMISSIONED BY" />
+      <concept id="RE2" code="2" displayName="IS A SUB-DIVISION OF" />
+    </CodeSystem>
+  </CodeSystems>
+  <Organisations>
+    <Organisation orgRecordClass="RC1">
+      <Name>UNIVERSITY HOSPITALS PLYMOUTH NHS TRUST</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="1994-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="RK9" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>DERRIFORD HOSPITAL</AddrLn1>
+          <AddrLn2>DERRIFORD ROAD</AddrLn2>
+          <Town>PLYMOUTH</Town>
+          <County>DEVON</County>
+          <PostCode>PL6 8DH</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="tel" value="01752 777111" />
+        <Contact type="fax" value="01752 768976" />
+      </Contacts>
+      <Roles>
+        <Role id="RO197" uniqueRoleId="48402" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="1994-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO7" uniqueRoleId="154992">
+          <Date>
+            <Type value="Operational" />
+            <Start value="1994-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="51517">
+          <Date>
+            <Type value="Operational" />
+            <Start value="1996-04-01" />
+            <End value="2002-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="QD6" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="46354" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="58409">
+          <Date>
+            <Type value="Operational" />
+            <Start value="1994-04-01" />
+            <End value="1996-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="L36" />
+            <PrimaryRoleId id="RO109" uniqueRoleId="83600" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="72791">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2002-04-01" />
+            <End value="2006-06-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q21" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="21651" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="74229">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-07-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2006-07-01" />
+            <End value="2014-08-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q39" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="107231" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="193112">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-09-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q66" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163561" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="360650">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+            <End value="2018-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+            <End value="2018-04-17" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q80" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202024" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="541597">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-04-18" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q85" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="299781" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="30303">
+          <Date>
+            <Type value="Legal" />
+            <Start value="1994-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="LG1" />
+            <PrimaryRoleId id="RO111" uniqueRoleId="67051" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>CECIL AMEY LTD - WATTON</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2008-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="TP22W" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>13 HIGH STREET</AddrLn1>
+          <AddrLn2>WATTON</AddrLn2>
+          <Town>THETFORD</Town>
+          <County>NORFOLK</County>
+          <PostCode>IP25 6AB</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO167" uniqueRoleId="138891" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="110263">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2014-03-10" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q35" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="137019" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="155661">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1FN" />
+            <PrimaryRoleId id="RO166" uniqueRoleId="122058" />
+          </Target>
+        </Rel>
+        <Rel id="RE3" uniqueRelId="175276">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5PQ" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="92541" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="200126">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-03-11" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q56" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163551" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="217675">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="12W" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163828" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="364251">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202023" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="379621">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14E" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="230519" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>CECIL AMEY LTD - WYMONDHAM</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2008-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="TP3PP" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>10 MARKET STREET</AddrLn1>
+          <Town>WYMONDHAM</Town>
+          <County>NORFOLK</County>
+          <PostCode>NR18 0BB</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO167" uniqueRoleId="138892" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="110490">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2014-03-10" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q35" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="137019" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="155665">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1FN" />
+            <PrimaryRoleId id="RO166" uniqueRoleId="122058" />
+          </Target>
+        </Rel>
+        <Rel id="RE3" uniqueRelId="173987">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5PQ" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="92541" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="200224">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-03-11" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q56" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163551" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="217583">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="12W" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163828" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="364252">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202023" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="379622">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14E" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="230519" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS ENGLAND LONDON</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2013-03-20" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q71" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>SOUTHSIDE</AddrLn1>
+          <AddrLn2>105 VICTORIA STREET</AddrLn2>
+          <AddrLn3>VICTORIA</AddrLn3>
+          <Town>LONDON</Town>
+          <County>GREATER LONDON</County>
+          <PostCode>SW1E 6QT</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO210" uniqueRoleId="168379" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-03-20" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO211" uniqueRoleId="169359">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-03-20" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="225193">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-03-20" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="H" />
+            <PrimaryRoleId id="RO128" uniqueRoleId="75915" />
+          </Target>
+        </Rel>
+        <Rel id="RE2" uniqueRelId="225194">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-03-20" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y56" />
+            <PrimaryRoleId id="RO209" uniqueRoleId="163592" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>A V PHARMA LIMITED</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="8K633" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>UNIT 1B HARRISON COURT</AddrLn1>
+          <AddrLn2>HILTON BUSINESS PARK</AddrLn2>
+          <AddrLn3>HILTON</AddrLn3>
+          <Town>DERBY</Town>
+          <County>DERBYSHIRE</County>
+          <PostCode>DE65 5UR</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO157" uniqueRoleId="307727" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO268" uniqueRoleId="307728">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="559735">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q76" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202018" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC2">
+      <Name>RESOLUTION HOUSE</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="112AA" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>CARGO FLEET LANE</AddrLn1>
+          <AddrLn2>CARGO FLEET</AddrLn2>
+          <Town>MIDDLESBROUGH</Town>
+          <County>CLEVELAND</County>
+          <PostCode>TS3 8AL</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO222" uniqueRoleId="307735" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE6" uniqueRelId="559742">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="112" />
+            <PrimaryRoleId id="RO141" uniqueRoleId="77565" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC2">
+      <Name>COUNTY HALL</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="511AC" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>LOUGHBOROUGH ROAD</AddrLn1>
+          <AddrLn2>WEST BRIDGFORD</AddrLn2>
+          <Town>NOTTINGHAM</Town>
+          <County>NOTTINGHAMSHIRE</County>
+          <PostCode>NG2 7QP</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO222" uniqueRoleId="307736" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE6" uniqueRelId="559743">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="511" />
+            <PrimaryRoleId id="RO141" uniqueRoleId="78160" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>VETERANS IN SEFTON CIO</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-24" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="8K634" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>BRUNSWICK YOUTH &amp; COMMUNITY CENTRE</AddrLn1>
+          <AddrLn2>MARSH LANE</AddrLn2>
+          <Town>BOOTLE</Town>
+          <County>MERSEYSIDE</County>
+          <PostCode>L20 4JQ</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO157" uniqueRoleId="307737" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-24" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="559744">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-24" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q75" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202017" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>AVONLEA SERVICES LTD</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-24" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="8K635" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>BARNSLEY BUSINESS &amp; INNOVATION CTR</AddrLn1>
+          <AddrLn2>SNYDALE ROAD</AddrLn2>
+          <AddrLn3>CUDWORTH</AddrLn3>
+          <Town>BARNSLEY</Town>
+          <County>SOUTH YORKSHIRE</County>
+          <PostCode>S72 8RP</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="http" value="HTTP://WWW.AVONLEA-SERVICES.CO.UK" />
+      </Contacts>
+      <Roles>
+        <Role id="RO157" uniqueRoleId="307738" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-24" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="559745">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-24" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q72" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202011" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>LEAGUE OF FRIENDS OF THE ROYAL UNITED HOSPITAL (BATH)</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-24" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="8K636" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>ROYAL UNITED HOSPITAL</AddrLn1>
+          <AddrLn2>COMBE PARK</AddrLn2>
+          <Town>BATH</Town>
+          <County>AVON</County>
+          <PostCode>BA1 3NG</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="http" value="HTTP://FRIENDSOFTHERUH.ORG.UK" />
+      </Contacts>
+      <Roles>
+        <Role id="RO157" uniqueRoleId="307741" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-24" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="559746">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-24" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q86" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="299782" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>BOOTS OPTICIANS - BRACKNELL</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="TP8Y8" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>19-23 BRACCAN WALK</AddrLn1>
+          <Town>BRACKNELL</Town>
+          <County>BERKSHIRE</County>
+          <PostCode>RG12 1BE</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO167" uniqueRoleId="307742" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE6" uniqueRelId="559747">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1AD" />
+            <PrimaryRoleId id="RO166" uniqueRoleId="57319" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="559748">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14G" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="230523" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="559749">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q87" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="299783" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC2">
+      <Name>J17 ADULT PSYCHIATRIC INPATIENTS SERVICE</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="RXVU1" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>PRESTWICH HOSPITAL</AddrLn1>
+          <AddrLn2>BURY NEW ROAD</AddrLn2>
+          <AddrLn3>PRESTWICH</AddrLn3>
+          <Town>MANCHESTER</Town>
+          <County>GREATER MANCHESTER</County>
+          <PostCode>M25 3BL</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO198" uniqueRoleId="307743" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE6" uniqueRelId="559750">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="RXV" />
+            <PrimaryRoleId id="RO197" uniqueRoleId="70435" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC2">
+      <Name>EDENFIELD LOW SECURE INPATIENT SERVICE</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="RXVT9" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>PRESTWICH HOSPITAL</AddrLn1>
+          <AddrLn2>BURY NEW ROAD</AddrLn2>
+          <AddrLn3>PRESTWICH</AddrLn3>
+          <Town>MANCHESTER</Town>
+          <County>GREATER MANCHESTER</County>
+          <PostCode>M25 3BL</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO198" uniqueRoleId="307744" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE6" uniqueRelId="559751">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="RXV" />
+            <PrimaryRoleId id="RO197" uniqueRoleId="70435" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>BOOTS OPTICIANS</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2008-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1AD" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>D90 EAST FO6</AddrLn1>
+          <AddrLn2>THANE ROAD</AddrLn2>
+          <Town>NOTTINGHAM</Town>
+          <County>NOTTINGHAMSHIRE</County>
+          <PostCode>NG90 1BS</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO166" uniqueRoleId="57319" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>MIDDLESBROUGH COUNCIL</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="1996-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="112" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>PO BOX 500</AddrLn1>
+          <Town>MIDDLESBROUGH</Town>
+          <County>CLEVELAND</County>
+          <PostCode>TS1 9FT</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO141" uniqueRoleId="77565" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="1996-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO40" uniqueRoleId="172467">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="235166">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q45" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163540" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="338704">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q74" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202016" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="17230">
+          <Date>
+            <Type value="Legal" />
+            <Start value="1996-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="101" />
+            <PrimaryRoleId id="RO141" uniqueRoleId="122599" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="36793">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="V277" />
+            <PrimaryRoleId id="RO119" uniqueRoleId="140280" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NOTTINGHAMSHIRE COUNTY COUNCIL</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="1998-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="511" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>COUNTY HALL</AddrLn1>
+          <AddrLn2>WEST BRIDGFORD</AddrLn2>
+          <Town>NOTTINGHAM</Town>
+          <County>NOTTINGHAMSHIRE</County>
+          <PostCode>NG2 7QP</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO141" uniqueRoleId="78160" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="1998-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO33" uniqueRoleId="172470">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="235247">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q55" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163550" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="351559">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q76" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202018" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="29087">
+          <Date>
+            <Type value="Legal" />
+            <Start value="1998-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="505" />
+            <PrimaryRoleId id="RO141" uniqueRoleId="57138" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="36796">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="V284" />
+            <PrimaryRoleId id="RO119" uniqueRoleId="116668" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>CECIL AMEY LTD</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2008-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1FN" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>22A HAYMARKET</AddrLn1>
+          <Town>NORWICH</Town>
+          <County>NORFOLK</County>
+          <PostCode>NR2 1QH</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO166" uniqueRoleId="122058" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>BARKEREND PHARMACY LIMITED</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2012-07-18" />
+        <End value="2018-10-17" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="P1QV" />
+      <Status value="Inactive" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>BARKEREND PHARMACY</AddrLn1>
+          <AddrLn2>489 BARKEREND ROAD</AddrLn2>
+          <Town>BRADFORD</Town>
+          <County>WEST YORKSHIRE</County>
+          <PostCode>BD3 8QX</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO181" uniqueRoleId="162566" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2012-07-18" />
+            <End value="2018-10-17" />
+          </Date>
+          <Status value="Inactive" />
+        </Role>
+      </Roles>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>PHILIP AND MARY THOMSON OPTICIANS LTD</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2008-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1AP" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>WHITE HOUSE FARM</AddrLn1>
+          <AddrLn2>SCOLE ROAD</AddrLn2>
+          <AddrLn3>BROCKDISH</AddrLn3>
+          <Town>DISS</Town>
+          <County>NORFOLK</County>
+          <PostCode>IP21 4JL</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO166" uniqueRoleId="18809" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>UJIGEE DAYNITE</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2004-04-01" />
+        <End value="2018-10-17" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="P3CK" />
+      <Status value="Inactive" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>UTIGEE DAYNITE PHARMACY</AddrLn1>
+          <AddrLn2>261 LONDON ROAD</AddrLn2>
+          <AddrLn3>HADLEIGH</AddrLn3>
+          <Town>BENFLEET</Town>
+          <County>ESSEX</County>
+          <PostCode>SS7 2BN</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO181" uniqueRoleId="18878" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2004-04-01" />
+            <End value="2018-10-17" />
+          </Date>
+          <Status value="Inactive" />
+        </Role>
+      </Roles>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>GREATER MANCHESTER MENTAL HEALTH NHS FOUNDATION TRUST</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2003-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="RXV" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>PRESTWICH HOSPITAL</AddrLn1>
+          <AddrLn2>BURY NEW ROAD</AddrLn2>
+          <AddrLn3>PRESTWICH</AddrLn3>
+          <Town>MANCHESTER</Town>
+          <County>GREATER MANCHESTER</County>
+          <PostCode>M25 3BL</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="tel" value="0161 773 9121" />
+        <Contact type="fax" value="0161 772 3639" />
+      </Contacts>
+      <Roles>
+        <Role id="RO197" uniqueRoleId="70435" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2003-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO57" uniqueRoleId="155305">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-02-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="72714">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2003-04-01" />
+            <End value="2006-06-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q14" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="21645" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="76169">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-07-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2006-07-01" />
+            <End value="2014-08-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q31" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="136455" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="193479">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-30" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-09-01" />
+            <End value="2015-03-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q46" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163541" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="344220">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+            <End value="2016-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-03-31" />
+            <End value="2016-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q73" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202015" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="506181">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2016-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q83" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="278954" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="36032">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2003-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="RMH" />
+            <PrimaryRoleId id="RO197" uniqueRoleId="92473" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37418">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2017-01-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="TAE" />
+            <PrimaryRoleId id="RO107" uniqueRoleId="47801" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>SARAJ PATEL LTD</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2004-04-01" />
+        <End value="2018-10-18" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="P89K" />
+      <Status value="Inactive" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>118 BELGRAVE ROAD</AddrLn1>
+          <Town>LEICESTER</Town>
+          <County>LEICESTERSHIRE</County>
+          <PostCode>LE4 5AT</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO181" uniqueRoleId="94629" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2004-04-01" />
+            <End value="2018-10-18" />
+          </Date>
+          <Status value="Inactive" />
+        </Role>
+      </Roles>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>PHILIP AND MARY THOMPSON OPTICIANS LTD</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2008-04-01" />
+        <End value="2018-09-30" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="TP2GD" />
+      <Status value="Inactive" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>33B THE THOROUGHFARE</AddrLn1>
+          <Town>HARLESTON</Town>
+          <County>NORFOLK</County>
+          <PostCode>IP20 9AS</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO167" uniqueRoleId="104856" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="116154">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2014-03-10" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q35" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="137019" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="154731">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1AP" />
+            <PrimaryRoleId id="RO166" uniqueRoleId="18809" />
+          </Target>
+        </Rel>
+        <Rel id="RE3" uniqueRelId="173995">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5PQ" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="92541" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="200525">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-03-11" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q56" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163551" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="217591">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="12W" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163828" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="363837">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202023" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="379471">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14E" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="230519" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>PHILIP AND MARY THOMPSON OPTICIANS LTD</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2008-04-01" />
+        <End value="2018-09-30" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="TP2EP" />
+      <Status value="Inactive" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>49 THE THROUGHFARE</AddrLn1>
+          <Town>HALESWORTH</Town>
+          <County>SUFFOLK</County>
+          <PostCode>IP19 8AN</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO167" uniqueRoleId="104857" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="116175">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2014-03-10" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q35" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="137019" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="154730">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1AP" />
+            <PrimaryRoleId id="RO166" uniqueRoleId="18809" />
+          </Target>
+        </Rel>
+        <Rel id="RE3" uniqueRelId="181018">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5PR" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="113281" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="200546">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-03-11" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q56" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163551" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="220354">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="12W" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163828" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="363838">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202023" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="379472">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+            <End value="2018-09-30" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14E" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="230519" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>CECIL AMEY LTD - HARLESTON</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2008-04-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="TP2FJ" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>33B THE THOROUGHFARE</AddrLn1>
+          <Town>HARLESTON</Town>
+          <County>NORFOLK</County>
+          <PostCode>IP20 9AS</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO167" uniqueRoleId="104859" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="110262">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2014-03-10" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q35" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="137019" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="154729">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+            <End value="2018-10-23" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1AP" />
+            <PrimaryRoleId id="RO166" uniqueRoleId="18809" />
+          </Target>
+        </Rel>
+        <Rel id="RE3" uniqueRelId="173988">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2008-04-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2008-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5PQ" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="92541" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="200125">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-03-11" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q56" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163551" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="217584">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="12W" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163828" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="363839">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202023" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="379473">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14E" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="230519" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="559740">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-24" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="T1FN" />
+            <PrimaryRoleId id="RO166" uniqueRoleId="122058" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS NORTH MANCHESTER CCG</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2013-04-01" />
+        <End value="2017-03-31" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2011-12-13" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="01M" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>2ND FLOOR SILK MILL</AddrLn1>
+          <AddrLn2>HOLYOAK STREET</AddrLn2>
+          <AddrLn3>NEWTON HEATH</AddrLn3>
+          <Town>MANCHESTER</Town>
+          <County>GREATER MANCHESTER</County>
+          <PostCode>M40 1HA</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO98" uniqueRoleId="161437" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2017-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2011-12-13" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="186172">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2012-10-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q46" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163541" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="344910">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+            <End value="2016-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+            <End value="2016-03-20" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q73" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202015" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="450138">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2016-04-01" />
+            <End value="2017-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2016-03-30" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q83" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="278954" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="526436">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="69820" />
+            <PrimaryRoleId id="RO173" uniqueRoleId="230662" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="37432">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2017-04-01" />
+          </Date>
+          <Type>Successor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14L" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="288843" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS DORSET CCG</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2013-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2011-12-13" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="11J" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>VESPASIAN HOUSE</AddrLn1>
+          <AddrLn2>BRIDPORT ROAD</AddrLn2>
+          <Town>DORCHESTER</Town>
+          <County>DORSET</County>
+          <PostCode>DT1 1TG</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO98" uniqueRoleId="161520" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2011-12-13" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="187003">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2013-04-01" />
+            <End value="2018-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2012-10-01" />
+            <End value="2018-04-17" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q70" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163565" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="526427">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="696WD" />
+            <PrimaryRoleId id="RO173" uniqueRoleId="295010" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="540951">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-04-18" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q85" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="299781" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>ALTHEA UK &amp; IRELAND</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2013-09-19" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="8J374" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>BROOK HENDERSON HOUSE</AddrLn1>
+          <AddrLn2>37-43 BLAGRAVE STREET</AddrLn2>
+          <Town>READING</Town>
+          <County>BERKSHIRE</County>
+          <PostCode>RG1 1PZ</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO157" uniqueRoleId="173355" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-09-19" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="235330">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-09-19" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q69" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163564" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="372307">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+            <End value="2018-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+            <End value="2018-04-17" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q82" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202026" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="550064">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-04-18" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q87" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="299783" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>EAST COMMISSIONING HUB</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2015-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2015-03-06" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14E" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>C/O NHS ENGLAND, 1W09, 1ST FLOOR</AddrLn1>
+          <AddrLn2>QUARRY HOUSE</AddrLn2>
+          <AddrLn3>QUARRY HILL</AddrLn3>
+          <Town>LEEDS</Town>
+          <County>WEST YORKSHIRE</County>
+          <PostCode>LS2 7UE</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO98" uniqueRoleId="230519" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-03-06" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO218" uniqueRoleId="230520">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-03-06" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="336888">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-03-06" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202023" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="37293">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="12W" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163828" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37294">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="12X" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163862" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>SOUTH EAST COMMISSIONING HUB</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2015-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2015-03-06" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14G" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>C/O NHS ENGLAND, 1W09, 1ST FLOOR</AddrLn1>
+          <AddrLn2>QUARRY HOUSE</AddrLn2>
+          <AddrLn3>QUARRY HILL</AddrLn3>
+          <Town>LEEDS</Town>
+          <County>WEST YORKSHIRE</County>
+          <PostCode>LS2 7UE</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO98" uniqueRoleId="230523" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-03-06" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO218" uniqueRoleId="230524">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-03-06" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="336890">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+            <End value="2018-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-03-06" />
+            <End value="2018-03-22" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q81" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202025" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="540888">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-04-23" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q88" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="299784" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="37297">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="13L" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163840" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37298">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="13K" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="163885" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NORFOLK PCT</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2006-10-01" />
+        <End value="2013-03-31" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2006-10-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5PQ" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>LAKESIDE 400</AddrLn1>
+          <AddrLn2>OLD CHAPEL WAY</AddrLn2>
+          <AddrLn3>BROADLAND BUSINESS PARK</AddrLn3>
+          <Town>NORWICH</Town>
+          <County>NORFOLK</County>
+          <PostCode>NR7 0WG</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="tel" value="01603 257000" />
+        <Contact type="fax" value="01553 761104" />
+      </Contacts>
+      <Roles>
+        <Role id="RO179" uniqueRoleId="92541" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO22" uniqueRoleId="153810">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE3" uniqueRelId="37421">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q35" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="137019" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="186961">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2012-10-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q56" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163551" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="449102">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202023" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="10094">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5A2" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="78106" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="25367">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5JM" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="115506" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="25778">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5G1" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="115507" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="25907">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5CY" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="115505" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="31657">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5JL" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="115509" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>GREAT YARMOUTH AND WAVENEY PCT</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2006-10-01" />
+        <End value="2013-03-31" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2006-10-01" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5PR" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>1 COMMON LANE NORTH</AddrLn1>
+          <Town>BECCLES</Town>
+          <County>SUFFOLK</County>
+          <PostCode>NR34 9BN</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="tel" value="01502 719500" />
+      </Contacts>
+      <Roles>
+        <Role id="RO179" uniqueRoleId="113281" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO22" uniqueRoleId="153811">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE3" uniqueRelId="37434">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+            <End value="2013-03-31" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q35" />
+            <PrimaryRoleId id="RO132" uniqueRoleId="137019" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="186962">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2012-10-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q56" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163551" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="449110">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202023" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="1480">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5JV" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="42303" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="5352">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2006-10-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5GT" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="42302" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>MIDAS</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2012-06-20" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y03553" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>536 - PHOENIX MILL</AddrLn1>
+          <AddrLn2>20 PIERCY STREET</AddrLn2>
+          <AddrLn3>ANCOATS</AddrLn3>
+          <Town>MANCHESTER</Town>
+          <County>GREATER MANCHESTER</County>
+          <PostCode>M4 7HY</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="tel" value="0845 2410460" />
+      </Contacts>
+      <Roles>
+        <Role id="RO72" uniqueRoleId="193310">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-04-15" />
+            <End value="2016-04-19" />
+          </Date>
+          <Status value="Inactive" />
+        </Role>
+        <Role id="RO177" uniqueRoleId="193311" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2012-06-20" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO255" uniqueRoleId="280471">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2016-04-20" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE4" uniqueRelId="283215">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2012-06-20" />
+            <End value="2013-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="5NT" />
+            <PrimaryRoleId id="RO179" uniqueRoleId="137715" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="283216">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-04-03" />
+            <End value="2015-03-04" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="00W" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="161403" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="284917">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-03-05" />
+            <End value="2017-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="01M" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="161437" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="460545">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2014-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="NMS" />
+            <PrimaryRoleId id="RO172" uniqueRoleId="169566" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="522667">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="14L" />
+            <PrimaryRoleId id="RO98" uniqueRoleId="288843" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS ENGLAND NORTH (YORKSHIRE AND HUMBER)</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2015-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2015-01-16" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q72" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>CITY OFFICE PARK</AddrLn1>
+          <AddrLn2>3 LEEDS CITY OFFICE PARK</AddrLn2>
+          <AddrLn3>HOLBECK</AddrLn3>
+          <Town>LEEDS</Town>
+          <County>WEST YORKSHIRE</County>
+          <PostCode>LS11 5BD</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO210" uniqueRoleId="202011" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE2" uniqueRelId="291347">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y54" />
+            <PrimaryRoleId id="RO209" uniqueRoleId="163588" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="338179">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="D" />
+            <PrimaryRoleId id="RO128" uniqueRoleId="75916" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="37254">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q50" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163545" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37255">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q51" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163546" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37256">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q52" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163547" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS ENGLAND NORTH (CHESHIRE AND MERSEYSIDE)</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2015-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2015-01-16" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q75" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>REGATTA PLACE</AddrLn1>
+          <AddrLn2>SUMMERS ROAD</AddrLn2>
+          <AddrLn3>BRUNSWICK BUSINESS PARK</AddrLn3>
+          <Town>LIVERPOOL</Town>
+          <County>MERSEYSIDE</County>
+          <PostCode>L3 4BL</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO210" uniqueRoleId="202017" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE2" uniqueRelId="291356">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y54" />
+            <PrimaryRoleId id="RO209" uniqueRoleId="163588" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="338182">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="B" />
+            <PrimaryRoleId id="RO128" uniqueRoleId="75917" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="37261">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q44" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163539" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37262">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q48" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163543" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS ENGLAND MIDLANDS AND EAST (NORTH MIDLANDS)</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2015-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2015-01-16" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q76" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>BIRCH HOUSE</AddrLn1>
+          <AddrLn2>SOUTHWELL ROAD WEST</AddrLn2>
+          <AddrLn3>RAINWORTH</AddrLn3>
+          <Town>MANSFIELD</Town>
+          <County>NOTTINGHAMSHIRE</County>
+          <PostCode>NG21 0HJ</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO210" uniqueRoleId="202018" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE2" uniqueRelId="291357">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y55" />
+            <PrimaryRoleId id="RO209" uniqueRoleId="163591" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="338183">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="E" />
+            <PrimaryRoleId id="RO128" uniqueRoleId="75911" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="37263">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q55" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163550" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37264">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q60" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163555" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS ENGLAND MIDLANDS AND EAST (CENTRAL MIDLANDS)</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2015-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2015-01-16" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q78" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>FOSSE HOUSE</AddrLn1>
+          <AddrLn2>6 SMITH WAY</AddrLn2>
+          <AddrLn3>ENDERBY</AddrLn3>
+          <Town>LEICESTER</Town>
+          <County>LEICESTERSHIRE</County>
+          <PostCode>LE19 1SX</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO210" uniqueRoleId="202022" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE2" uniqueRelId="291360">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y55" />
+            <PrimaryRoleId id="RO209" uniqueRoleId="163591" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="338185">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="E" />
+            <PrimaryRoleId id="RO128" uniqueRoleId="75911" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="37267">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q58" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163553" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37268">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q59" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163554" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS ENGLAND MIDLANDS AND EAST (EAST)</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2015-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2015-01-16" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q79" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>VICTORIA HOUSE</AddrLn1>
+          <AddrLn2>CAPITAL PARK</AddrLn2>
+          <AddrLn3>FULBOURN</AddrLn3>
+          <Town>CAMBRIDGE</Town>
+          <County>CAMBRIDGESHIRE</County>
+          <PostCode>CB21 5XB</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO210" uniqueRoleId="202023" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE2" uniqueRelId="291361">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-01-16" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y55" />
+            <PrimaryRoleId id="RO209" uniqueRoleId="163591" />
+          </Target>
+        </Rel>
+        <Rel id="RE5" uniqueRelId="338187">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="G" />
+            <PrimaryRoleId id="RO128" uniqueRoleId="75912" />
+          </Target>
+        </Rel>
+      </Rels>
+      <Succs>
+        <Succ uniqueSuccId="37269">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q56" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163551" />
+          </Target>
+        </Succ>
+        <Succ uniqueSuccId="37270">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Type>Predecessor</Type>
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q57" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163552" />
+          </Target>
+        </Succ>
+      </Succs>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>FREEMANS PHARMACY</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2001-11-05" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="FLM70" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>WORTLEY BECK HEALTH CTR</AddrLn1>
+          <AddrLn2>RING ROAD</AddrLn2>
+          <AddrLn3>LOWER WORTLEY</AddrLn3>
+          <Town>LEEDS</Town>
+          <County>WEST YORKSHIRE</County>
+          <PostCode>LS12 5SG</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="tel" value="0113 2638822" />
+      </Contacts>
+      <Roles>
+        <Role id="RO182" uniqueRoleId="221365" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2001-11-05" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+        <Role id="RO268" uniqueRoleId="307726">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-24" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE6" uniqueRelId="318535">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2004-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="P91H" />
+            <PrimaryRoleId id="RO181" uniqueRoleId="94444" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="318536">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2013-04-01" />
+            <End value="2015-03-31" />
+          </Date>
+          <Status value="Inactive" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q52" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="163547" />
+          </Target>
+        </Rel>
+        <Rel id="RE4" uniqueRelId="348737">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2015-04-01" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q72" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202011" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS ENGLAND SOUTH WEST (SOUTH WEST NORTH)</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2018-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2017-12-22" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q86" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>BEWLEY HOUSE</AddrLn1>
+          <AddrLn2>MARSHFIELD ROAD</AddrLn2>
+          <Town>CHIPPENHAM</Town>
+          <County>WILTSHIRE</County>
+          <PostCode>SN15 1JW</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO210" uniqueRoleId="299782" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-12-22" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="533149">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-12-22" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="K" />
+            <PrimaryRoleId id="RO128" uniqueRoleId="130094" />
+          </Target>
+        </Rel>
+        <Rel id="RE2" uniqueRelId="533150">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-12-22" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y58" />
+            <PrimaryRoleId id="RO209" uniqueRoleId="299361" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>NHS ENGLAND SOUTH EAST (HAMPSHIRE, ISLE OF WIGHT AND THAMES VALLEY)</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2018-04-01" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2017-12-22" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q87" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>OAKLEY ROAD</AddrLn1>
+          <Town>SOUTHAMPTON</Town>
+          <County>HAMPSHIRE</County>
+          <PostCode>SO16 4GX</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO210" uniqueRoleId="299783" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-12-22" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE5" uniqueRelId="533151">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-12-22" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="J" />
+            <PrimaryRoleId id="RO128" uniqueRoleId="75913" />
+          </Target>
+        </Rel>
+        <Rel id="RE2" uniqueRelId="533152">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-04-01" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2017-12-22" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Y59" />
+            <PrimaryRoleId id="RO209" uniqueRoleId="299360" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>MECKAY LIMITED</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-17" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="P4NP" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>11 PICARDY STREET</AddrLn1>
+          <Town>BELVEDERE</Town>
+          <County>KENT</County>
+          <PostCode>DA17 5QQ</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO181" uniqueRoleId="307590" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-17" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>BMP HEALTHCARE LTD</Name>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-17" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="P4NQ" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>118 BELGRAVE ROAD</AddrLn1>
+          <Town>LEICESTER</Town>
+          <County>LEICESTERSHIRE</County>
+          <PostCode>LE4 5AT</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Roles>
+        <Role id="RO181" uniqueRoleId="307591" primaryRole="true">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-17" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>BELVEDERE PHARMACY</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2018-10-22" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-17" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="FRN18" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>11 PICARDY STREET</AddrLn1>
+          <Town>BELVEDERE</Town>
+          <County>KENT</County>
+          <PostCode>DA17 5QQ</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="tel" value="02083 114087" />
+      </Contacts>
+      <Roles>
+        <Role id="RO182" uniqueRoleId="307607" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-10-22" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-17" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE4" uniqueRelId="559596">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-22" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q71" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="168379" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="559597">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-22" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="P4NP" />
+            <PrimaryRoleId id="RO181" uniqueRoleId="307590" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+    <Organisation orgRecordClass="RC1">
+      <Name>BROTHERS PHARMACY</Name>
+      <Date>
+        <Type value="Legal" />
+        <Start value="2018-10-19" />
+      </Date>
+      <Date>
+        <Type value="Operational" />
+        <Start value="2018-10-17" />
+      </Date>
+      <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="FW047" />
+      <Status value="Active" />
+      <LastChangeDate value="2018-10-24" />
+      <GeoLoc>
+        <Location>
+          <AddrLn1>118 BELGRAVE ROAD</AddrLn1>
+          <Town>LEICESTER</Town>
+          <County>LEICESTERSHIRE</County>
+          <PostCode>LE4 5AT</PostCode>
+          <Country>ENGLAND</Country>
+        </Location>
+      </GeoLoc>
+      <Contacts>
+        <Contact type="tel" value="01162 667007" />
+      </Contacts>
+      <Roles>
+        <Role id="RO182" uniqueRoleId="307608" primaryRole="true">
+          <Date>
+            <Type value="Legal" />
+            <Start value="2018-10-19" />
+          </Date>
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-17" />
+          </Date>
+          <Status value="Active" />
+        </Role>
+      </Roles>
+      <Rels>
+        <Rel id="RE4" uniqueRelId="559598">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-19" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="Q78" />
+            <PrimaryRoleId id="RO210" uniqueRoleId="202022" />
+          </Target>
+        </Rel>
+        <Rel id="RE6" uniqueRelId="559599">
+          <Date>
+            <Type value="Operational" />
+            <Start value="2018-10-19" />
+          </Date>
+          <Status value="Active" />
+          <Target>
+            <OrgId root="2.16.840.1.113883.2.1.3.2.4.18.48" assigningAuthorityName="HSCIC" extension="P4NQ" />
+            <PrimaryRoleId id="RO181" uniqueRoleId="307591" />
+          </Target>
+        </Rel>
+      </Rels>
+    </Organisation>
+  </Organisations>
+</HSCOrgRefData:OrgRefData>
